@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'iti-ubuntu-slave' }
+    agent any
     stages {
         stage('sonarqube'){
             steps {
